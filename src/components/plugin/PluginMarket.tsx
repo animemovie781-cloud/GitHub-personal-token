@@ -149,6 +149,7 @@ const GitHubMcpConnector: React.FC = () => {
         name: "GitHub",
         serverUrl: GITHUB_MCP_URL,
         requireBearerAuth: true,
+        bearerToken: token,
         source: "custom",
       });
 
